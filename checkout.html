@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Replace with your group name, member names and IDs -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sample order checkout for GhorerPushti.">
+  <title>Checkout | GhorerPushti</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="top">
+
+<header class="site-header">
+  <a class="brand" href="index.html"><span class="brand-icon">⌂</span><span>Ghorer<span class="brand-accent">Pushti</span><small>.com</small></span></a>
+  <nav class="main-nav" aria-label="Main navigation">
+    <a href="index.html">Home</a>
+    <a href="catalog.html">Shop Foods</a>
+    <a href="product-details.html">Product Details</a>
+    <a href="register.html">Join Us</a>
+    <a class="nav-cart active" aria-current="page" href="checkout.html">Checkout ↗</a>
+  </nav>
+</header>
+
+<main>
+  <section class="page-banner page-banner-small">
+    <div class="container">
+      <p class="eyebrow">ONE LAST CHECK</p>
+      <h1>Let's get your order ready.</h1>
+      <p>Check the sample order total and complete the delivery form below.</p>
+    </div>
+  </section>
+
+  <section class="section container">
+    <div class="checkout-layout">
+      <form class="site-form checkout-form" action="#" method="post">
+        <fieldset>
+          <legend>01 — Delivery information</legend>
+          <div class="form-grid">
+            <label class="form-span">Full name
+              <input type="text" name="fullname" autocomplete="name" required>
+            </label>
+            <label>Mobile number
+              <input type="tel" name="phone" pattern="01[3-9][0-9]{8}" title="Enter an 11-digit Bangladesh mobile number." placeholder="01712345678" autocomplete="tel" required>
+            </label>
+            <label>Email (optional)
+              <input type="email" name="email" autocomplete="email">
+            </label>
+            <label>Division
+              <select name="division" required>
+                <option value="">Choose division</option>
+                <option>Barishal</option>
+                <option>Chattogram</option>
+                <option>Dhaka</option>
+                <option>Khulna</option>
+                <option>Mymensingh</option>
+                <option>Rajshahi</option>
+                <option>Rangpur</option>
+                <option>Sylhet</option>
+              </select>
+            </label>
+            <label>Area / city
+              <input type="text" name="area" required>
+            </label>
+            <label class="form-span">Full delivery address
+              <textarea name="address" rows="3" autocomplete="street-address" required></textarea>
+            </label>
+            <label class="form-span">Note for delivery (optional)
+              <textarea name="note" rows="2" placeholder="Nearby landmark or delivery instruction"></textarea>
+            </label>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>02 — Payment method</legend>
+          <div class="payment-grid">
+            <label class="payment-option"><input type="radio" name="payment" value="bkash" required><span><strong>bKash</strong><small>Mobile financial service</small></span></label>
+            <label class="payment-option"><input type="radio" name="payment" value="nagad"><span><strong>Nagad</strong><small>Mobile financial service</small></span></label>
+            <label class="payment-option"><input type="radio" name="payment" value="card"><span><strong>Card</strong><small>Demo option only</small></span></label>
+            <label class="payment-option"><input type="radio" name="payment" value="cod"><span><strong>Cash on delivery</strong><small>Use if your business supports it</small></span></label>
+          </div>
+          <p class="small-note">These are interface examples only. No payment will be processed.</p>
+        </fieldset>
+
+        <label class="choice checkbox-block"><input type="checkbox" name="confirmation" required> I have checked the sample order information.</label>
+        <div class="form-actions">
+          <button class="btn btn-primary" type="submit">Place sample order · Tk 1,393</button>
+          <a class="btn btn-outline" href="catalog.html">Continue shopping</a>
+        </div>
+      </form>
+
+      <aside class="checkout-aside">
+        <p class="eyebrow eyebrow-light">YOUR BASKET</p>
+        <h2>Order summary.</h2>
+        <div class="order-lines">
+          <div><span><strong>Premium Dates</strong><small>500 g · Qty 1</small></span><strong>Tk 650</strong></div>
+          <div><span><strong>Daily Rice</strong><small>2 kg · Qty 1</small></span><strong>Tk 420</strong></div>
+          <div><span><strong>Turmeric Powder</strong><small>200 g · Qty 1</small></span><strong>Tk 180</strong></div>
+        </div>
+        <div class="totals">
+          <p><span>Subtotal</span><strong>Tk 1,250</strong></p>
+          <p><span>Sample delivery fee</span><strong>Tk 80</strong></p>
+          <p><span>Sample 5% tax (rounded)</span><strong>Tk 63</strong></p>
+          <p class="total-final"><span>Total</span><strong>Tk 1,393</strong></p>
+        </div>
+        <div class="checkout-note"><span>✳</span><p>This is a static classroom order. Verify delivery fees, tax treatment and product totals for your final project.</p></div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div><a class="brand footer-brand" href="index.html"><span class="brand-icon">⌂</span><span>Ghorer<span class="brand-accent">Pushti</span><small>.com</small></span></a><p>Thoughtfully selected essentials for the family table.</p></div>
+    <div><h3>Explore</h3><a href="catalog.html">Shop foods</a><a href="product-details.html">Product details</a><a href="register.html">Join us</a></div>
+    <div><h3>Customer care</h3><p>Email: hello@ghorerpushti.example</p><p>Phone: +880 1XXX-XXXXXX</p></div>
+    <div><h3>Information</h3><p>Sample student storefront.</p><a href="admin.html">Admin dashboard ↗</a></div>
+  </div>
+  <div class="container footer-bottom"><span>© 2026 GhorerPushti.com · Student project</span><a href="#top">Back to top ↑</a></div>
+</footer>
+
+</body>
+</html>

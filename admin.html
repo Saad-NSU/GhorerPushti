@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Replace with your group name, member names and IDs -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="GhorerPushti sample admin dashboard.">
+  <title>Admin Dashboard | GhorerPushti</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/admin.css">
+</head>
+<body class="admin-page">
+
+<div class="admin-layout">
+  <aside class="admin-sidebar">
+    <a class="brand admin-brand" href="index.html"><span class="brand-icon">⌂</span><span>Ghorer<span class="brand-accent">Pushti</span><small>.com</small></span></a>
+    <p class="sidebar-label">WORKSPACE</p>
+    <nav class="sidebar-nav" aria-label="Dashboard navigation">
+      <a class="side-active" href="admin.html">▦ &nbsp; Dashboard</a>
+      <a href="#orders">▤ &nbsp; Orders</a>
+      <a href="#products">□ &nbsp; Products</a>
+      <a href="#members">♙ &nbsp; Members</a>
+      <a href="#reports">▥ &nbsp; Reports</a>
+    </nav>
+    <div class="sidebar-bottom">
+      <p>Storefront preview</p>
+      <a href="index.html">← Back to store</a>
+    </div>
+  </aside>
+
+  <main class="admin-main">
+    <header class="admin-topbar">
+      <div><p class="eyebrow">GHORERPUSHTI / OVERVIEW</p><h1>Dashboard</h1></div>
+      <div class="admin-user"><span class="admin-avatar">GP</span><span><strong>Store Admin</strong><small>Demo account</small></span></div>
+    </header>
+
+    <section class="admin-welcome">
+      <div><p class="eyebrow">MONDAY · SAMPLE REPORT</p><h2>A clearer view of your store.</h2><p>All figures below are illustrative classroom data, not live store records.</p></div>
+      <a class="btn btn-primary" href="catalog.html">View catalogue ↗</a>
+    </section>
+
+    <section class="stat-grid" aria-label="Store summary">
+      <article class="stat-card"><span>Total sample sales</span><strong>Tk 84,650</strong><small class="stat-positive">↑ 12% vs previous period</small></article>
+      <article class="stat-card"><span>Orders</span><strong>128</strong><small>Illustrative order count</small></article>
+      <article class="stat-card"><span>Customers</span><strong>96</strong><small>Illustrative member count</small></article>
+      <article class="stat-card"><span>Average order</span><strong>Tk 661</strong><small>Sample sales ÷ orders</small></article>
+    </section>
+
+    <section class="admin-panel chart-panel" id="reports">
+      <div class="panel-heading"><div><p class="eyebrow">SALES OVER TIME</p><h2>Monthly sales overview.</h2></div><span class="panel-tag">Sample figures</span></div>
+      <div class="chart-legend"><span><i></i> Sales (Tk thousands)</span><strong>April–September</strong></div>
+      <div class="sales-chart" role="img" aria-label="CSS bar chart of sample sales: April 42 thousand taka, May 58 thousand, June 49 thousand, July 72 thousand, August 65 thousand, September 84 thousand">
+        <div class="chart-column"><span class="bar-value">42k</span><div class="chart-bar bar-apr"></div><span class="chart-month">Apr</span></div>
+        <div class="chart-column"><span class="bar-value">58k</span><div class="chart-bar bar-may"></div><span class="chart-month">May</span></div>
+        <div class="chart-column"><span class="bar-value">49k</span><div class="chart-bar bar-jun"></div><span class="chart-month">Jun</span></div>
+        <div class="chart-column"><span class="bar-value">72k</span><div class="chart-bar bar-jul"></div><span class="chart-month">Jul</span></div>
+        <div class="chart-column"><span class="bar-value">65k</span><div class="chart-bar bar-aug"></div><span class="chart-month">Aug</span></div>
+        <div class="chart-column"><span class="bar-value">84k</span><div class="chart-bar bar-sep"></div><span class="chart-month">Sep</span></div>
+      </div>
+    </section>
+
+    <section class="admin-panel" id="orders">
+      <div class="panel-heading"><div><p class="eyebrow">RECENT ACTIVITY</p><h2>Recent orders.</h2></div><a class="text-link" href="checkout.html">View sample checkout ↗</a></div>
+      <div class="table-wrap">
+        <table class="admin-table">
+          <thead><tr><th scope="col">Order</th><th scope="col">Customer</th><th scope="col">Date</th><th scope="col">Amount</th><th scope="col">Status</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">GP-2041</th><td>Customer A</td><td>12 Oct 2026</td><td>Tk 1,393</td><td><span class="status status-pending">Pending</span></td></tr>
+            <tr><th scope="row">GP-2040</th><td>Customer B</td><td>11 Oct 2026</td><td>Tk 650</td><td><span class="status status-shipped">Shipped</span></td></tr>
+            <tr><th scope="row">GP-2039</th><td>Customer C</td><td>11 Oct 2026</td><td>Tk 900</td><td><span class="status status-delivered">Delivered</span></td></tr>
+            <tr><th scope="row">GP-2038</th><td>Customer D</td><td>10 Oct 2026</td><td>Tk 420</td><td><span class="status status-delivered">Delivered</span></td></tr>
+            <tr><th scope="row">GP-2037</th><td>Customer E</td><td>09 Oct 2026</td><td>Tk 1,120</td><td><span class="status status-cancelled">Cancelled</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <div class="admin-two-col">
+      <section class="admin-panel" id="products">
+        <div class="panel-heading"><div><p class="eyebrow">INVENTORY</p><h2>Low-stock alert.</h2></div></div>
+        <ul class="inventory-list">
+          <li><span class="inventory-icon">🍯</span><span><strong>Raw Honey</strong><small>GP-102</small></span><span class="inventory-count">4 left</span></li>
+          <li><span class="inventory-icon">🥜</span><span><strong>Cashew Nuts</strong><small>GP-108</small></span><span class="inventory-count">3 left</span></li>
+          <li><span class="inventory-icon">🧈</span><span><strong>Traditional Ghee</strong><small>GP-106</small></span><span class="inventory-count">0 left</span></li>
+        </ul>
+        <a class="text-link" href="catalog.html">Review product catalogue ↗</a>
+      </section>
+
+      <section class="admin-panel">
+        <div class="panel-heading"><div><p class="eyebrow">POPULAR PRODUCTS</p><h2>Top sellers.</h2></div></div>
+        <ol class="top-products">
+          <li><span class="top-rank">01</span><span><strong>Premium Dates</strong><small>GP-101 · Sample</small></span><strong>Tk 650</strong></li>
+          <li><span class="top-rank">02</span><span><strong>Daily Rice</strong><small>GP-103 · Sample</small></span><strong>Tk 420</strong></li>
+          <li><span class="top-rank">03</span><span><strong>Raw Honey</strong><small>GP-102 · Sample</small></span><strong>Tk 480</strong></li>
+        </ol>
+      </section>
+    </div>
+
+    <section class="admin-panel" id="members">
+      <div class="panel-heading"><div><p class="eyebrow">CUSTOMER COMMUNITY</p><h2>Newest members.</h2></div></div>
+      <div class="members-grid">
+        <article><span class="member-avatar">SA</span><div><strong>Sample Account A</strong><small>Joined 10 Oct 2026</small></div><span class="member-state">Active</span></article>
+        <article><span class="member-avatar">RB</span><div><strong>Sample Account B</strong><small>Joined 09 Oct 2026</small></div><span class="member-state">Active</span></article>
+        <article><span class="member-avatar">MK</span><div><strong>Sample Account C</strong><small>Joined 08 Oct 2026</small></div><span class="member-state">New</span></article>
+      </div>
+    </section>
+
+    <footer class="admin-footer"><span>© 2026 GhorerPushti · Sample dashboard</span><a href="index.html">Open storefront ↗</a></footer>
+  </main>
+</div>
+
+</body>
+</html>

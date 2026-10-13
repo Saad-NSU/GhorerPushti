@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Replace with your group name, member names and IDs -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Create a sample GhorerPushti customer account.">
+  <title>Join Us | GhorerPushti</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="top">
+
+<header class="site-header">
+  <a class="brand" href="index.html"><span class="brand-icon">⌂</span><span>Ghorer<span class="brand-accent">Pushti</span><small>.com</small></span></a>
+  <nav class="main-nav" aria-label="Main navigation">
+    <a href="index.html">Home</a>
+    <a href="catalog.html">Shop Foods</a>
+    <a href="product-details.html">Product Details</a>
+    <a class="active" aria-current="page" href="register.html">Join Us</a>
+    <a class="nav-cart" href="checkout.html">Checkout ↗</a>
+  </nav>
+</header>
+
+<main>
+  <section class="page-banner page-banner-small">
+    <div class="container">
+      <p class="eyebrow">WELCOME TO THE TABLE</p>
+      <h1>Create your account.</h1>
+      <p>Use the form below to demonstrate a clear, accessible registration experience.</p>
+    </div>
+  </section>
+
+  <section class="section container form-layout">
+    <div class="form-intro">
+      <p class="eyebrow">YOUR GHORERPUSHTI ACCOUNT</p>
+      <h2>A better organised pantry starts here.</h2>
+      <p>Keep contact and address information together in one convenient form.</p>
+      <div class="form-side-note"><span>✳</span><p><strong>Your information matters.</strong><br>This is a classroom demo. The form does not store or transmit your information.</p></div>
+      <div class="form-side-note"><span>⌂</span><p><strong>Designed for local use.</strong><br>Includes a Bangladesh mobile number pattern and all eight divisions.</p></div>
+    </div>
+
+    <form class="site-form" action="#" method="post">
+      <fieldset>
+        <legend>01 — Account details</legend>
+        <div class="form-grid">
+          <label class="form-span">Full name
+            <input type="text" name="fullname" autocomplete="name" required>
+          </label>
+          <label>Email address
+            <input type="email" name="email" autocomplete="email" required>
+          </label>
+          <label>Bangladesh mobile number
+            <input type="tel" name="phone" pattern="01[3-9][0-9]{8}" title="Enter an 11-digit Bangladesh mobile number beginning with 013–019." placeholder="01712345678" autocomplete="tel" required>
+          </label>
+          <label>Password
+            <input type="password" name="password" minlength="8" autocomplete="new-password" required>
+            <small>Use at least 8 characters.</small>
+          </label>
+          <label>Confirm password
+            <input type="password" name="confirm-password" minlength="8" autocomplete="new-password" required>
+          </label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>02 — Personal details</legend>
+        <div class="form-grid">
+          <label>Date of birth
+            <input type="date" name="birthdate">
+          </label>
+          <label>Division
+            <select name="division" required>
+              <option value="">Choose a division</option>
+              <option>Barishal</option>
+              <option>Chattogram</option>
+              <option>Dhaka</option>
+              <option>Khulna</option>
+              <option>Mymensingh</option>
+              <option>Rajshahi</option>
+              <option>Rangpur</option>
+              <option>Sylhet</option>
+            </select>
+          </label>
+          <div class="form-span">
+            <span class="field-label">Gender</span>
+            <div class="inline-options">
+              <label class="choice"><input type="radio" name="gender" value="female"> Female</label>
+              <label class="choice"><input type="radio" name="gender" value="male"> Male</label>
+              <label class="choice"><input type="radio" name="gender" value="prefer-not-to-say"> Prefer not to say</label>
+            </div>
+          </div>
+          <label class="form-span">Address
+            <textarea name="address" rows="3" autocomplete="street-address" placeholder="House, road, area and district"></textarea>
+          </label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>03 — Preferences</legend>
+        <span class="field-label">What interests you?</span>
+        <div class="inline-options">
+          <label class="choice"><input type="checkbox" name="interest" value="dates"> Dates</label>
+          <label class="choice"><input type="checkbox" name="interest" value="honey"> Honey</label>
+          <label class="choice"><input type="checkbox" name="interest" value="spices"> Spices</label>
+          <label class="choice"><input type="checkbox" name="interest" value="grains"> Grains</label>
+        </div>
+        <label class="choice checkbox-block"><input type="checkbox" name="newsletter" value="yes"> I would like to receive product updates.</label>
+        <label class="choice checkbox-block"><input type="checkbox" name="terms" value="accepted" required> I have read and accept the sample terms.</label>
+      </fieldset>
+
+      <div class="form-actions">
+        <button class="btn btn-primary" type="submit">Create account ↗</button>
+        <button class="btn btn-outline" type="reset">Clear form</button>
+      </div>
+      <p class="small-note">Browser validation is demonstrated here. This form does not create a real customer account or save your data.</p>
+    </form>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div><a class="brand footer-brand" href="index.html"><span class="brand-icon">⌂</span><span>Ghorer<span class="brand-accent">Pushti</span><small>.com</small></span></a><p>Thoughtfully selected essentials for the family table.</p></div>
+    <div><h3>Explore</h3><a href="catalog.html">Shop foods</a><a href="product-details.html">Product details</a><a href="register.html">Join us</a></div>
+    <div><h3>Customer care</h3><p>Email: hello@ghorerpushti.example</p><p>Phone: +880 1XXX-XXXXXX</p></div>
+    <div><h3>Information</h3><p>Sample student storefront.</p><a href="admin.html">Admin dashboard ↗</a></div>
+  </div>
+  <div class="container footer-bottom"><span>© 2026 GhorerPushti.com · Student project</span><a href="#top">Back to top ↑</a></div>
+</footer>
+
+</body>
+</html>
