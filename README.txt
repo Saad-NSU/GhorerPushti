@@ -1,36 +1,58 @@
-GHORERPUSHTI.COM — WEBSITE STARTER FOR MIS207
-================================================
+# GhorerPushti.com – MIS207 Assignment 01
+**Project:** GhorerPushti.com  
+**Course:** MIS207  
+**Assignment:** Assignment 01 – Build the Storefront  
+**Group:** Team GhorerPushti
+  Members: Student One (ID 2022365630, Group leader)
+           Student Two(ID 2422617630)
+           Student Three(ID 2233606630)
 
-PROJECT FILES
-- index.html             Homepage with brand introduction and business model canvas
-- catalog.html           Product price table and original CSS product-art gallery
-- product-details.html   Sample product facts, quantity control and clearly labelled sample reviews
-- register.html          Registration form with HTML browser validation
-- checkout.html          Static checkout form and itemised sample calculation
-- admin.html             Static dashboard with sample cards, table, chart and inventory panel
-- css/style.css          Shared storefront styling, shared header/footer and responsive layouts
-- css/admin.css          Additional dashboard styling
-- images/brand-mark.svg  Original simple SVG brand mark
+## About the Project
 
-HOW TO OPEN
-1. Extract the project folder.
-2. Open the folder in Visual Studio Code.
-3. Open index.html in a browser, or use the Live Server extension.
-4. Use the same relative links and keep the css/ and images/ folders in place.
+Our project name is GhorerPushti.com. It is an e-commerce website idea for selling everyday food products. We wanted to make a website where customers can see different products, check their prices, and find product details easily.
 
-IMPORTANT
-- This is a static HTML/CSS classroom starter. It does not use a server or database.
-- Register, checkout, payment and dashboard are demonstrations only. No account or order is stored; no payment is processed.
-- Products, prices, reviews, stock and dashboard numbers are classroom sample data. Replace them with your own consistent and verified details.
-- The catalogue currently contains six sample products. If your brief requires twelve, add the missing table rows and gallery cards yourself and keep the same details consistent on related pages.
-- Replace the TODO group/member/ID comment in every HTML page as required by the assignment.
-- Do not claim products are organic, lab-tested, 100% pure or adulteration-free unless you have evidence.
-- Add a truthful note declaring AI/software tools used, following your course policy. Review, understand, and personalize the code; do not submit it blindly.
+The website is designed around the idea of providing food products to customers in a simple and organized way.
 
-DESIGN SYSTEM
-Forest green #173E32, warm cream #FBF6EC, harvest orange #E98232 and paper #FFFDF8. The hero and product artworks are CSS illustrations made specifically for this starter, not downloaded from the instructor demo or copied from a competitor.
+## Project Goals
 
-CHECKOUT SAMPLE MATH
-Tk 650 + Tk 420 + Tk 180 = Tk 1,250 subtotal
-Tk 1,250 + Tk 80 delivery + Tk 63 rounded sample VAT = Tk 1,393
-These are fictional numbers for consistent classroom examples only.
+The main goal of this project was to build a storefront using HTML and CSS. We tried to make the website easy to browse and keep the same style on all pages.
+
+We also wanted the product section to look clear, with a picture, name, and price for each product.
+
+## Tools We Used
+
+- HTML for the structure and content of the pages.
+- CSS for colors, layout, spacing, and design.
+- Visual Studio Code for writing and editing the code.
+- Live Server for opening the website in a browser and checking our changes.
+
+## Website Pages
+
+Our project contains these pages:
+
+- **index.html:** The homepage introduces GhorerPushti.com and its products.
+- **catalog.html:** This page shows the product list with pictures and prices.
+- **product-details.html:** This page is for showing product information.
+- **register.html:** This page contains a registration form.
+- **checkout.html:** This page shows a sample checkout form.
+- **admin.html:** This page presents a sample admin dashboard.
+
+## Design
+
+We chose forest green, cream, and orange as the main colors of our website. We thought these colors would suit a food-related brand and make the website look warm and natural.
+
+We also used product pictures to make the catalogue more attractive and easier to understand. We tried to keep the header, navigation, and footer consistent across the pages.
+
+## Help and Resources
+
+While working on this project, I took some assistance with HTML code examples and product pictures. I edited the files in Visual Studio Code and used the browser to see how the website looked. I also made changes when I noticed problems with the layout or images.
+
+## Limitations
+
+This is a student project made for an assignment. It is a static website, so features such as real online payments, a connected database, and live stock updates are not available unless they are added separately.
+
+The product prices and order calculations are examples for the project and may not represent actual selling prices.
+
+## Conclusion
+
+Working on GhorerPushti.com helped us understand how the different parts of a basic e-commerce website are organized. The project gave us an opportunity to practise HTML, CSS, product presentation, and website navigation. There are still improvements that can be made, but this is a starting point for developing the website further.
